@@ -13,6 +13,10 @@ public class JavaEjercicio {
             System.out.println("Ingrese el N°: " + (i+1) + ": ");
             number[i] = ingresar.nextInt();
         }
-            Arrays.sort(number);
+        Arrays.sort(number);
+        System.out.println("Los números ordenados de menor a mayor: ");
+        for (int num : number) {
+            System.out.println(num + " ");
+        }
     }
 }
