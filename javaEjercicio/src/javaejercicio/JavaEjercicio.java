@@ -8,5 +8,6 @@ public class JavaEjercicio {
         la aplicación lo ordene de menor a mayor*/
         System.out.println("EJERCICIO NÚMERO UNO");
         Scanner ingresar = new Scanner (System.in);
+                int[] number = new int [5];
     }
 }
