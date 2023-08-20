@@ -9,5 +9,9 @@ public class JavaEjercicio {
         System.out.println("EJERCICIO NÚMERO UNO");
         Scanner ingresar = new Scanner (System.in);
                 int[] number = new int [5];
+        for (int i = 0; i < number.length; i++) {
+            System.out.println("Ingrese el N°: " + (i+1) + ": ");
+            number[i] = ingresar.nextInt();
+        }
     }
 }
