@@ -13,5 +13,6 @@ public class JavaEjercicio {
             System.out.println("Ingrese el N°: " + (i+1) + ": ");
             number[i] = ingresar.nextInt();
         }
+            Arrays.sort(number);
     }
 }
